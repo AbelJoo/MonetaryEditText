@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MonetaryEditText">
+        <!-- 最大值 -->
+        <attr name="large" format="string" />
+        <!-- 最小值 -->
+        <attr name="small" format="string" />
+        <!-- 小数位数限制 -->
+        <attr name="decimalNumber" format="integer" />
+    </declare-styleable>
+</resources>
