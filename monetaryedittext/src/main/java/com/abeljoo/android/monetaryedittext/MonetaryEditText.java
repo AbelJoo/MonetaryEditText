@@ -8,7 +8,11 @@ import android.util.AttributeSet;
 import android.widget.EditText;
 
 /**
- * Created by abel on 15-7-2.
+ * 适合用作输入货币的EditText。该控件处理了货币输入逻辑中的棘手问题。<br>
+ * 注意，该控件对数字的处理使用了字符串而不是浮点数，
+ * 因为浮点数可能会因精度丢失而导致不可预知的问题。
+ *
+ * https://github.com/AbelJoo/MonetaryEditText
  */
 public class MonetaryEditText extends EditText {
 
